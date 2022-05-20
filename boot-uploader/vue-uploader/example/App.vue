@@ -14,7 +14,7 @@
           target: '/boot/uploader/chunk',
           testChunks: true,
           simultaneousUploads: 1,
-          chunkSize: 10 * 1024 * 1024,
+          chunkSize: 50 * 1024 * 1024,
           // checkChunkUploadedByResponse: function (chunk, message) {
           //   let objMessage = {}
           //   try {
